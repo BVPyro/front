@@ -30,7 +30,7 @@
     "eslint-plugin-import": "^2.23.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.1",
-    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react": "^7.26.1",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.17"
   },
