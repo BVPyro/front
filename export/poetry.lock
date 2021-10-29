@@ -64,19 +64,19 @@ python-versions = "*"
 
 [[package]]
 name = "psycopg"
-version = "3.0b1"
+version = "3.0.1"
 description = "PostgreSQL database adapter for Python"
 category = "main"
 optional = false
 python-versions = ">=3.6"
 
 [package.extras]
-binary = ["psycopg-binary (==3.0.beta1)"]
-c = ["psycopg-c (==3.0.beta1)"]
-dev = ["black", "flake8 (>=3.8,<3.9)", "mypy (>=0.812)", "wheel"]
-docs = ["Sphinx (>=4.1,<4.2)", "dnspython (>=2.1.0)", "docutils (>=0.17,<0.18)", "sphinx-autobuild (>=2021.3.14)", "sphinx-autodoc-typehints (>=1.12,<1.13)"]
+binary = ["psycopg-binary (==3.0.1)"]
+c = ["psycopg-c (==3.0.1)"]
+dev = ["black", "flake8 (>=4.0.1,<4.1.0)", "mypy (>=0.910)", "pytest-mypy (>=0.8.1)", "types-setuptools (>=57.4.0)", "wheel"]
+docs = ["Sphinx (>=4.1,<4.2)", "docutils (>=0.17,<0.18)", "furo (>=2021.9.8)", "sphinx-autobuild (>=2021.3.14)", "sphinx-autodoc-typehints (>=1.12,<1.13)", "dnspython (>=2.1.0)", "shapely (>=1.7)"]
 pool = ["psycopg-pool"]
-test = ["mypy (>=0.812)", "pproxy (>=2.7,<2.8)", "pytest (>=6.2.4,<6.3)", "pytest-asyncio (>=0.15.0,<0.16)", "pytest-randomly (>=3.7,<3.8)", "tenacity (>=7,<7.1)"]
+test = ["mypy (>=0.910)", "pproxy (>=2.7.8,<2.8.0)", "pytest (>=6.2.5,<6.3.0)", "pytest-asyncio (>=0.15.1,<0.16.0)", "pytest-randomly (>=3.10.1,<3.11.0)", "tenacity (>=8.0.1,<8.1.0)"]
 
 [[package]]
 name = "python-dateutil"
@@ -139,7 +139,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "3323858e1232d1386bf98e2b9caa4047168dea5f400e60641b435e72d531c200"
+content-hash = "4af22e5cb49fd45c6701665b7229931cab38b983fce705d8ac6036e111dca8d7"
 
 [metadata.files]
 certifi = [
@@ -212,8 +212,8 @@ pandas-stubs = [
     {file = "pandas_stubs-1.2.0.35-py3-none-any.whl", hash = "sha256:5555f9692728b5cd60316d09c812270ed75b1307112d5ef4431745165eb5d32d"},
 ]
 psycopg = [
-    {file = "psycopg-3.0b1-py3-none-any.whl", hash = "sha256:fd510caaaa90aec11781c0581a8a03f847e35925db6de293404db87d625a44e8"},
-    {file = "psycopg-3.0b1.tar.gz", hash = "sha256:90188a415f2132eabccfa58ae41330d3bfc1c5c410add4d6194e783521478189"},
+    {file = "psycopg-3.0.1-py3-none-any.whl", hash = "sha256:be91c7f793e13df2f314fb372fbae2c29d6dbed5ac14651c69e7b45cb876becf"},
+    {file = "psycopg-3.0.1.tar.gz", hash = "sha256:f509c236c7f08b5a46ca19efbe20b5b317876a8ed6823fefd1c3fb4a5d691fe3"},
 ]
 python-dateutil = [
     {file = "python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"},
