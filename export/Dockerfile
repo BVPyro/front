@@ -1,5 +1,5 @@
 # We start with a rolling tag as a base image
-FROM bitnami/python:3.9 as base
+FROM bitnami/python:3.10.0 as base
 WORKDIR /app
 
 # Set path and install poetry in it
