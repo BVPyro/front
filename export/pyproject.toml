@@ -8,7 +8,7 @@ authors = ["linozen <linus@sehn.tech>"]
 python = "^3.8"
 pandas = "^1.0.0"
 requests = "^2.0.0"
-psycopg = "^3.0.0"
+psycopg = "^3.0.4"
 
 [tool.poetry.dev-dependencies]
 pandas-stubs = "^1.2.0"
